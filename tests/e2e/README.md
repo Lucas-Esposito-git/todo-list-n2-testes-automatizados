@@ -1,0 +1,3 @@
+# Integrante 2 — C-01 (pendente)
+
+Implementar com Playwright um teste real de cadastro, conclusão e persistência após recarregamento. Instalar Playwright (`npm init playwright@latest`) e configurar o servidor Vite. Usar um contexto novo e acessar a URL da aplicação. Preencher `getByLabel('Nova tarefa')`, clicar `getByRole('button', { name: 'Adicionar' })`, conferir a tarefa visível, marcar o checkbox localizado pelo título, verificar `toBeChecked()`, recarregar e verificar novamente visibilidade e estado marcado. Não usar mocks. Salvar evidências e documentar os comandos reais. Não há teste E2E implementado neste pacote.
